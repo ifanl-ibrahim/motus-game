@@ -1,63 +1,36 @@
-# Motus Game
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Introduction
+## Getting Started
 
-Bienvenue dans **Motus Game**, une version numérique du célèbre jeu de mots ! Dans ce jeu captivant, vous devrez deviner des mots français en utilisant des indices visuels. Choisissez un niveau de difficulté (facile, normal ou difficile) pour ajuster la longueur des mots à deviner. Vous avez un nombre limité de tentatives pour trouver le mot et marquer le plus de points possible. Le joueur avec le score le plus élevé figure dans le tableau de classement !
+First, run the development server:
 
-## Prérequis
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Avant de commencer à tester le jeu, assurez-vous que vous avez les éléments suivants installés :
-- Node.js (version 14.x ou supérieure)
-- npm (ou yarn si vous préférez)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Instructions de démarrage
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-Pour faire fonctionner le jeu, vous devez démarrer à la fois le backend et le frontend. Suivez les étapes ci-dessous pour configurer et lancer le projet :
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-### Backend
+## Learn More
 
-1. **Accédez au répertoire du backend :**
+To learn more about Next.js, take a look at the following resources:
 
-   ```bash
-   cd back
-   ```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-2. **Installez les dépendances :**
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-   ```bash
-   npm install
-   ```
+## Deploy on Vercel
 
-3. **Démarrez le serveur backend :**
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-   ```bash
-   npm run develop
-   ```
-
-   Le serveur backend sera maintenant accessible sur `http://localhost:1337`.
-
-### Frontend
-
-1. **Accédez au répertoire du frontend :**
-
-   ```bash
-   cd front
-   ```
-
-2. **Installez les dépendances :**
-
-   ```bash
-   npm install
-   ```
-
-3. **Démarrez le serveur de développement du frontend :**
-
-   ```bash
-   npm run dev
-   ```
-
-   L'application frontend sera maintenant accessible sur `http://localhost:3000`.
-
-## Test du Jeu
-
-Une fois les serveurs backend et frontend démarrés, vous pouvez accéder à l'application dans votre navigateur à l'adresse `http://localhost:3000` pour tester le jeu. Suivez les instructions à l'écran pour jouer et voir les classements.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
